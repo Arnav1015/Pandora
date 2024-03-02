@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import SpeechRecognitionComponent from './components/SpeechToText';
 
 function App() {
   return (
-    <div></div>
+    <SpeechRecognitionComponent></SpeechRecognitionComponent>
   );
 }
 
