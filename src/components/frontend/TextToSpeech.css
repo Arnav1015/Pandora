@@ -7,32 +7,33 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg,#41a8bd,#6b03fc);
+   background-image: url(bg.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+   }
 .hero h1{
     font-size: 45px;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
-    color: aliceblue;
+    color: rgb(0, 64, 120);
+   
 }
 .hero h1 span{
     color: #8790d3;
 }
 input{
     align-items: center;
-    width: 600px;
-    height: 250px;
-    background: #41a8bd;
-    color: rgb(0, 68, 255);
+    width: 400px;
+    height: 200px;
+    background-color: #8790d3;
     font-size: 15px;
+    border-color: rgb(251, 0, 0);
     border: 0;
     outline: 0;
-    padding: 20px;
+    padding: 20px;     
     border-radius: 10px;
     resize: none;
     margin-bottom: 30px;
@@ -49,35 +50,7 @@ input::placeholder{
     align-items: center;
     gap: 20px;
 }
-button{
-    background: #8790d3;
-    color: burlywood;
-    font-size: 16px;
-    padding: 10px 30px;
-    border-radius: 35px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
 button img{
     width: 16px;
     margin-right: 10px;
-}
-select{
-    flex: 1;
-    color: antiquewhite;
-    background: #8790d3;
-    height: 50px;
-    padding: 0 20px;
-    outline: 0;
-    border: 0;
-    border-radius: 35px;
-    appearance: none;
-    background-image: url(images/dropdown.png);
-    background-repeat: no-repeat;
-    background-size: 15px;
-    background-position-x: calc(100% - 20px);
-    background-position-y: 20px;
 }
