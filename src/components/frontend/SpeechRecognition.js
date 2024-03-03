@@ -49,7 +49,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "opening youtube channel";
       texts.appendChild(p);
       console.log("opening youtube");
-      window.open("https://www.youtube.com");
+      window.location.replace("https://www.youtube.com");
     }
     if (text.includes("open for blind people page")||("open text to speech")) {
       p = document.createElement("p");
@@ -57,7 +57,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "opening Text To Speech";
       texts.appendChild(p);
       console.log("opening Text To Speech");
-      window.open("TextToSpeech.html");
+      window.location.replace("blind.html");
     }
     if (text.includes("open about us")) {
       p = document.createElement("p");
@@ -65,7 +65,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "opening about us page";
       texts.appendChild(p);
       console.log("about us page");
-      window.open("about.html");
+      window.location.replace("about.html");
     }
     p = document.createElement("p");
   }
